@@ -6,7 +6,7 @@
 */
 init main(void)
 {
-	write(l, "and that piece of art is useful\"
+	write(1, "and that piece of art is useful\"
 - Dora Korpar, 2015-10-19\n", 59);	
-	return (l);
+	return (1);
 }
