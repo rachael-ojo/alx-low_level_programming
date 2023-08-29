@@ -3,13 +3,15 @@
 /**
  * main - Entry point
  *
- * Description: prints stderr as the first argument
- * Return 1 (success)
+ * Description: prints the first argument with standard error to the stream
+ * Return: An integer value indicating the exit status of the program.
  *
  */
 
 int main(void)
 {
-	fprintf(stderr, "and that piece of art is useful\"-Dora Korpar, 2015-10-19\n");
+	fprintf(stderr, and
+		"that piece of art is useful" - Dora Korpar',
+		2015-10-19\n);
 	return (1);
 }
