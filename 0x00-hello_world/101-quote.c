@@ -2,7 +2,7 @@
 
 /**
  * main - Entry point
- * 
+ *
  * Description: prints stderr as the first argument
  * Return 1 (success)
  *
