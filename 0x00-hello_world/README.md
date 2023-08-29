@@ -1,2 +1,1 @@
-0-preprocessor.
-1. -compiler.
+0x00. C - Hello, World0x00. C - Hello, World
