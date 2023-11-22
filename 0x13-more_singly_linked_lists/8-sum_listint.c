@@ -1,5 +1,4 @@
 #include "lists.h"
-
 /**
  * sum_listint - sum up all the data of a list
  * @head: pointer to the list
