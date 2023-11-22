@@ -1,5 +1,4 @@
 #include "lists.h"
-
 /**
  * get_nodeint_at_index - retrieve  node at an index
  * @head: pointer to the first node of a list
