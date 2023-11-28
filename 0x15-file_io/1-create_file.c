@@ -4,7 +4,7 @@
  * and copy content in it.
  *
  * @filename: the filename to be created
- * @text_content - the content to be copied into the file
+ * @text_content: the content to be copied into the file
  * Return: 1 if successful or -1 if failed
  */
 int create_file(const char *filename, char *text_content)
