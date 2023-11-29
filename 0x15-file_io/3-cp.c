@@ -1,4 +1,4 @@
-#include "main.h" 
+#include "main.h"
 #include <stdio.h>
 /**
  * error_file - check if a file is opened and handle errors
@@ -9,20 +9,20 @@
  */
 void error_file(int file_from, int file_to, char *argv[])
 {
-        if (file_from == -1)
-        {
-                dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]);
-                exit(98);
-        }
-        if (file_to == -1)
-        {
-                dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]);
+	if (file_from == -1)
+	{
+		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]);
+		exit(98);
+	}
+	if (file_to == -1)
+	{
+		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]);
 		exit(99);
 	}
 }
 /**
  * main - copy content of a file from one to another
- * @argc: argument count 
+ * @argc: argument count
  * @argv: argument vector
  * Return: 0 on success
  */
