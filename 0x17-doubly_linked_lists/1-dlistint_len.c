@@ -7,14 +7,14 @@
  */
 size_t dlistint_len(const dlistint_t *h)
 {
-	size_t length;
+	size_t len;
 
 	if (h == NULL)
 		return (0);
-	for (length = 0; h != NULL; length++)
+	for (len = 0; h != NULL; len++)
 	{
 		printf("%d\n", h->n);
 		h = h->next;
 	}
-	return (length);
+	return (len);
 }
