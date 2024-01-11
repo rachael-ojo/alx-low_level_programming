@@ -1,9 +1,9 @@
 #include "lists.h"
 
 /**
- * dlistint_len - print the length of data in a double linked list
+ * dlistint_len - print the length of nodes in a double linked list
  * @h: the head pointer to the list
- * Return: The number of nodes in the list
+ * Return: The length of nodes in the doubly linked list
  */
 size_t dlistint_len(const dlistint_t *h)
 {
@@ -13,7 +13,6 @@ size_t dlistint_len(const dlistint_t *h)
 		return (0);
 	for (len = 0; h != NULL; len++)
 	{
-		printf("%d\n", h->n);
 		h = h->next;
 	}
 	return (len);
