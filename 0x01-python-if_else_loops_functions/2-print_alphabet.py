@@ -3,5 +3,5 @@
 # Author: Ojo Rachael
 # Description: Print the alphabet in lowercase.
 for letter in range(ord('a'), ord('z') + 1):
-    printf(chr(letter), end=" ")
+    print("{}".format(chr(letter)), end="")
 print()
