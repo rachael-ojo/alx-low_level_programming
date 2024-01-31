@@ -1,6 +1,1 @@
-file_name = "output.txt"
-obj = 42
-
-with open(file_name, 'w') as file:
-    obj_type = type(obj)
-    file.write(str(obj_type))
+type
